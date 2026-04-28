@@ -31,7 +31,11 @@ function getPlantAdvice(plantType) {
 function generateAdvice() {
     const { season, plantType } = getUserInput();
 
-    let advice = "";
+    let advice = "\n🌱 GARDEN REPORT 🌱\n\n";
+
+    advice += "Season: " + season + "\n";
+    advice += "Plant: " + plantType + "\n\n";
+
     advice += getSeasonAdvice(season) + "\n";
     advice += getPlantAdvice(plantType);
 

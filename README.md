@@ -1,15 +1,11 @@
 # Garden App
 
-Simple app that gives gardening advice based on month/season.
+Simple app that gives gardening advice based on user input.
 
 ## Features
-- Monthly gardening tips
-- Seasonal advice
-
-## Tech
-- Python / JavaScript
+- User input for season and plant type
+- Dynamic advice generation
+- Modular code structure
 
 ## How to run
-python garden_advice.py
-# or
-node garden_advice.js
+Open index.html in a browser and check console output.

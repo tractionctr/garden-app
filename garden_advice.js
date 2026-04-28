@@ -39,7 +39,7 @@ function generateAdvice() {
     advice += getSeasonAdvice(season) + "\n";
     advice += getPlantAdvice(plantType);
 
-    console.log(advice);
+    console.log("🌿 OUTPUT:\n" + advice);
 }
 
 // Run app

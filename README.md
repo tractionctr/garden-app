@@ -1,11 +1,16 @@
 # Garden App
 
-Simple app that gives gardening advice based on user input.
+A simple web-based gardening advice app that generates tips based on user input (season + plant type).
 
 ## Features
-- User input for season and plant type
-- Dynamic advice generation
-- Modular code structure
+- Interactive user input via prompts
+- Dynamic advice generation using structured data
+- Modular JavaScript functions for maintainability
+- Supports multiple seasons and plant types
 
 ## How to run
-Open index.html in a browser and check console output.
+Open `index.html` in a browser and check the console for output.
+
+## Tech used
+- HTML
+- JavaScript
